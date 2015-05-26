@@ -15,17 +15,6 @@ INSERT INTO minhatabela (coluna1, ... colunan) VALUES ('valor1', ... 'valorn');
 */
 
 
-/* cartas inseridas */
-/* Modelo de Multi-Insert no ORACLE
- * Fonte: http://www.techonthenet.com/oracle/questions/insert_rows.php
-INSERT ALL
-  INTO mytable (column1, column2, column_n) VALUES (expr1, expr2, expr_n)
-  INTO mytable (column1, column2, column_n) VALUES (expr1, expr2, expr_n)
-  INTO mytable (column1, column2, column_n) VALUES (expr1, expr2, expr_n)
-SELECT * FROM dual;
-*/
-
-
 /* insere as cartas */
 INSERT INTO CRT_CARTA (CRT_CODIGO, CRT_SCRIPT, CRT_NOME, CRT_IMAGEM, CRT_ATAQUE, CRT_DEFESA, CRT_DESCRICAO) 
       VALUES (1, 'teste', 'wolverine', 'local', 1, 1, 'teste');
